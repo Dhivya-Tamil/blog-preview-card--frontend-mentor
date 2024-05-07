@@ -1,0 +1,45 @@
+body{
+    background-color: hsl(47, 88%, 63%);
+    font-family: sans-serif;
+}
+.card-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    margin-top: 50px;
+    width: 22%;
+    height: 30%;
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    border: 1px solid hsl(0, 0%, 7%);
+    box-shadow: 5px 7px hsl(0, 0%, 7%);
+    border-radius: 10px;
+}
+.card .article-img{
+    width: 100%;
+    border-radius: 10px;
+}
+.card button{
+    background-color:hsl(47, 88%, 63%);
+    border: none;
+    border-radius: 2px;
+    padding: 7px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+.card h2{
+    font-weight:  bold;
+    color: hsl(0, 0%, 7%);
+}
+.card #text{
+    color: hsl(0, 0%, 50%);
+}
+.user{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: bold;
+}
